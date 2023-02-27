@@ -41,7 +41,6 @@ void setup() {
   pinMode(clk,OUTPUT);
   pinMode(sclk,OUTPUT);
   pinMode(dato,OUTPUT);
-
   digitalWrite(oe, LOW);
   digitalWrite(a, LOW);
   digitalWrite(b, LOW);
