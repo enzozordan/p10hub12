@@ -11,11 +11,6 @@ Conector del cartel:
 15  GND º   º       16
 Pines arduino (esp8266):
 OE:2 A:16 B:12 CLK:14 SCLK:0 DATA:4
-Puede funcionar en cualquier arduino.
-No utiliza ninguna libreria.
-Se recomienda enviar el dato con SPI.
-Con SPI se puede reemplazar el bucle for de 7 a 0 y bitRead.
-Enzo Zordan. 
 */
 u8 mensaje[] = {0x0, 0x0, 0x0, 0x0, 0x0, 0x94, 0x94, 
 0xF5, 0x96, 0xF4, 0x0, 0xFB, 0x42, 0x22, 0x12, 0xFB, 
