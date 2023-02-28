@@ -1,4 +1,4 @@
-# Mostrar mensaje en cartel led 16x32 con protocolo HUB12
+# Mostrar mensaje en cartel led 16x32 (HUB12)
 
 Programa de prueba para mostrar un mensaje estático sin usar SPI ni librerías.
 
